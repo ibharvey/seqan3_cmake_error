@@ -1,0 +1,201 @@
+The system is: Linux - sh: 0: getcwd() failed: No such file or directory
+4.15.0-74-generic - sh: 0: getcwd() failed: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed40e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed40e.dir/build.make CMakeFiles/cmTC_ed40e.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed40e.dir/testCCompiler.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_ed40e.dir/testCCompiler.c.o   -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ed40e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed40e.dir/link.txt --verbose=1
+/usr/bin/gcc-7      CMakeFiles/cmTC_ed40e.dir/testCCompiler.c.o  -o cmTC_ed40e 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2dfe8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2dfe8.dir/build.make CMakeFiles/cmTC_2dfe8.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2dfe8.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc-7    -o CMakeFiles/cmTC_2dfe8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2dfe8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dfe8.dir/link.txt --verbose=1
+/usr/bin/gcc-7      CMakeFiles/cmTC_2dfe8.dir/CMakeCCompilerABI.c.o  -o cmTC_2dfe8 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05182/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05182.dir/build.make CMakeFiles/cmTC_05182.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05182.dir/testCXXCompiler.cxx.o
+/usr/bin/g++-7     -o CMakeFiles/cmTC_05182.dir/testCXXCompiler.cxx.o -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_05182
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05182.dir/link.txt --verbose=1
+/usr/bin/g++-7       CMakeFiles/cmTC_05182.dir/testCXXCompiler.cxx.o  -o cmTC_05182 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae476/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae476.dir/build.make CMakeFiles/cmTC_ae476.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae476.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++-7     -o CMakeFiles/cmTC_ae476.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_ae476
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae476.dir/link.txt --verbose=1
+/usr/bin/g++-7       CMakeFiles/cmTC_ae476.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ae476 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test CXX17_FLAG succeeded with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70d0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_70d0b.dir/build.make CMakeFiles/cmTC_70d0b.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_70d0b.dir/src.cxx.o
+/usr/bin/g++-7   -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/sdsl-lite/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/range-v3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/cereal/include  -DCXX17_FLAG  -std=c++17   -o CMakeFiles/cmTC_70d0b.dir/src.cxx.o -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_70d0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70d0b.dir/link.txt --verbose=1
+/usr/bin/g++-7   -DCXX17_FLAG  -std=c++17    CMakeFiles/cmTC_70d0b.dir/src.cxx.o  -o cmTC_70d0b 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#if !defined (__cplusplus) || (__cplusplus < 201703L)
+    #error NOCXX17
+    #endif
+    int main() {}
+Performing C++ SOURCE FILE Test CONCEPTS_FLAG-fconcepts succeeded with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03624/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03624.dir/build.make CMakeFiles/cmTC_03624.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_03624.dir/src.cxx.o
+/usr/bin/g++-7   -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/sdsl-lite/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/range-v3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/cereal/include  -DCONCEPTS_FLAG-fconcepts  -std=c++17 -fconcepts   -o CMakeFiles/cmTC_03624.dir/src.cxx.o -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:14: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_03624
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03624.dir/link.txt --verbose=1
+/usr/bin/g++-7   -DCONCEPTS_FLAG-fconcepts  -std=c++17 -fconcepts    CMakeFiles/cmTC_03624.dir/src.cxx.o  -o cmTC_03624 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+static_assert (__cpp_concepts >= 201507);
+    int main() {}
+Determining if the include file experimental/filesystem exists passed with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_901ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_901ff.dir/build.make CMakeFiles/cmTC_901ff.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_901ff.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++-7   -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/sdsl-lite/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/range-v3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/cereal/include  -std=c++17 -fconcepts   -o CMakeFiles/cmTC_901ff.dir/CheckIncludeFile.cxx.o -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_901ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_901ff.dir/link.txt --verbose=1
+/usr/bin/g++-7    -std=c++17 -fconcepts    CMakeFiles/cmTC_901ff.dir/CheckIncludeFile.cxx.o  -o cmTC_901ff 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test C++17FS_LIB-lstdc++fs succeeded with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b460/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b460.dir/build.make CMakeFiles/cmTC_3b460.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3b460.dir/src.cxx.o
+/usr/bin/g++-7   -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/sdsl-lite/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/range-v3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/cereal/include  -DC++17FS_LIB-lstdc++fs  -std=c++17 -fconcepts   -o CMakeFiles/cmTC_3b460.dir/src.cxx.o -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp/src.cxx
+<command-line>:0:2: warning: ISO C++11 requires whitespace after the macro name
+Linking CXX executable cmTC_3b460
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b460.dir/link.txt --verbose=1
+/usr/bin/g++-7   -DC++17FS_LIB-lstdc++fs  -std=c++17 -fconcepts    CMakeFiles/cmTC_3b460.dir/src.cxx.o  -o cmTC_3b460 -lstdc++fs 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <experimental/filesystem>
+        int main()
+        {
+            std::experimental::filesystem::path p{"/tmp/"};
+            throw std::experimental::filesystem::filesystem_error("Empty file name!", std::make_error_code(std::errc::invalid_argument));
+        }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4d5f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4d5f.dir/build.make CMakeFiles/cmTC_e4d5f.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4d5f.dir/CheckIncludeFile.c.o
+/usr/bin/gcc-7  -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/sdsl-lite/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/range-v3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/cereal/include  -std=c++17 -fconcepts   -o CMakeFiles/cmTC_e4d5f.dir/CheckIncludeFile.c.o   -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: warning: command line option ‘-std=c++1z’ is valid for C++/ObjC++ but not for C
+cc1: warning: command line option ‘-fconcepts’ is valid for C++/ObjC++ but not for C
+Linking C executable cmTC_e4d5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4d5f.dir/link.txt --verbose=1
+/usr/bin/gcc-7   -std=c++17 -fconcepts    CMakeFiles/cmTC_e4d5f.dir/CheckIncludeFile.c.o  -o cmTC_e4d5f 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file range/v3/version.hpp exists passed with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_582a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_582a8.dir/build.make CMakeFiles/cmTC_582a8.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_582a8.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++-7   -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/sdsl-lite/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/range-v3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/cereal/include  -std=c++17 -fconcepts   -o CMakeFiles/cmTC_582a8.dir/CheckIncludeFile.cxx.o -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_582a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_582a8.dir/link.txt --verbose=1
+/usr/bin/g++-7    -std=c++17 -fconcepts    CMakeFiles/cmTC_582a8.dir/CheckIncludeFile.cxx.o  -o cmTC_582a8 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sdsl/version.hpp exists passed with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e2c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e2c6.dir/build.make CMakeFiles/cmTC_5e2c6.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e2c6.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++-7   -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/sdsl-lite/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/range-v3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/cereal/include  -std=c++17 -fconcepts   -o CMakeFiles/cmTC_5e2c6.dir/CheckIncludeFile.cxx.o -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_5e2c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e2c6.dir/link.txt --verbose=1
+/usr/bin/g++-7    -std=c++17 -fconcepts    CMakeFiles/cmTC_5e2c6.dir/CheckIncludeFile.cxx.o  -o cmTC_5e2c6 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file cereal/cereal.hpp exists passed with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_52a02/fast"
+/usr/bin/make -f CMakeFiles/cmTC_52a02.dir/build.make CMakeFiles/cmTC_52a02.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52a02.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++-7   -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/sdsl-lite/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/range-v3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/cereal/include  -std=c++17 -fconcepts   -o CMakeFiles/cmTC_52a02.dir/CheckIncludeFile.cxx.o -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_52a02
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52a02.dir/link.txt --verbose=1
+/usr/bin/g++-7    -std=c++17 -fconcepts    CMakeFiles/cmTC_52a02.dir/CheckIncludeFile.cxx.o  -o cmTC_52a02 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57fbe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57fbe.dir/build.make CMakeFiles/cmTC_57fbe.dir/build
+make[1]: Entering directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_57fbe.dir/CheckIncludeFile.cxx.o
+/usr/bin/g++-7   -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/sdsl-lite/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/range-v3/include -I/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/deps/seqan3/submodules/cereal/include  -std=c++17 -fconcepts   -o CMakeFiles/cmTC_57fbe.dir/CheckIncludeFile.cxx.o -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_57fbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57fbe.dir/link.txt --verbose=1
+/usr/bin/g++-7    -std=c++17 -fconcepts    CMakeFiles/cmTC_57fbe.dir/CheckIncludeFile.cxx.o  -o cmTC_57fbe 
+make[1]: Leaving directory '/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/CMakeTmp'
+
+

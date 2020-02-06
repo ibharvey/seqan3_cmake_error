@@ -1,0 +1,26 @@
+{
+    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+    "files.associations": {
+        "charconv": "cpp",
+        "random": "cpp"
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/build/**": true,
+        "**/gfakluge/data/**": true,
+        "**/gfakluge/GFA-spec/**": true,
+        "**/gfakluge/bash-tap/**": true,
+        "**/gfakluge/paper/**": true,
+        "**/gfakluge/scripts/**": true,
+        "**/gfakluge/test/**": true,
+        "**/miniasm/**": true,
+        "**/minimap2/**": true,
+        "**/seqan3/doc/**": true,
+        "**/seqan3/build_system/**": true,
+        "**/seqan3/test/**": true,
+        "**/seqan3/submodules/**": true,
+        "**/seqan3/.github/**": true
+    }
+}

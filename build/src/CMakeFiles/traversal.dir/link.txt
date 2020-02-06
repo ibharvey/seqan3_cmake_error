@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtraversal.a  CMakeFiles/traversal.dir/traversal.cpp.o
+/usr/bin/ranlib libtraversal.a

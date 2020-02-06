@@ -1,0 +1,5 @@
+*.o
+*.exe
+*.dSYM
+test
+example.exe

@@ -1,0 +1,1 @@
+/usr/bin/g++-7     CMakeFiles/program.dir/main.cpp.o  -o program libtraversal.a libsegment.a -lstdc++fs -pthread -lrt 
