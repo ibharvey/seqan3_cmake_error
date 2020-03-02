@@ -1,1 +1,1 @@
-/usr/bin/g++-7     CMakeFiles/program.dir/main.cpp.o  -o program libtraversal.a libsegment.a -lstdc++fs -pthread -lrt 
+/usr/bin/c++     CMakeFiles/program.dir/main.cpp.o  -o program -Wl,-rpath,/usr/local/lib -lstdc++fs -pthread /usr/local/lib/libz.so /usr/lib/x86_64-linux-gnu/libbz2.so -lrt 

@@ -60,15 +60,15 @@ include src/CMakeFiles/program.dir/flags.make
 src/CMakeFiles/program.dir/main.cpp.o: src/CMakeFiles/program.dir/flags.make
 src/CMakeFiles/program.dir/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/program.dir/main.cpp.o"
-	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/main.cpp.o -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/src/main.cpp
+	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/program.dir/main.cpp.o -c /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/src/main.cpp
 
 src/CMakeFiles/program.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/main.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/src/main.cpp > CMakeFiles/program.dir/main.cpp.i
 
 src/CMakeFiles/program.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/main.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/src/main.cpp -o CMakeFiles/program.dir/main.cpp.s
 
 src/CMakeFiles/program.dir/main.cpp.o.requires:
 
@@ -90,8 +90,8 @@ program_EXTERNAL_OBJECTS =
 
 src/program: src/CMakeFiles/program.dir/main.cpp.o
 src/program: src/CMakeFiles/program.dir/build.make
-src/program: src/libtraversal.a
-src/program: src/libsegment.a
+src/program: /usr/local/lib/libz.so
+src/program: /usr/lib/x86_64-linux-gnu/libbz2.so
 src/program: src/CMakeFiles/program.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable program"
 	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/program.dir/link.txt --verbose=$(VERBOSE)

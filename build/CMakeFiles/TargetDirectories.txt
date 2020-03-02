@@ -33,9 +33,7 @@
 /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/CMakeFiles/ContinuousConfigure.dir
 /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/rebuild_cache.dir
 /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/edit_cache.dir
-/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/package_source.dir
 /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/program.dir
-/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/segment.dir
-/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/traversal.dir
+/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/package_source.dir
 /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/test.dir
 /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/package.dir

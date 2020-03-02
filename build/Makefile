@@ -520,32 +520,6 @@ program/fast:
 	$(MAKE) -f src/CMakeFiles/program.dir/build.make src/CMakeFiles/program.dir/build
 .PHONY : program/fast
 
-#=============================================================================
-# Target rules for targets named segment
-
-# Build rule for target.
-segment: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 segment
-.PHONY : segment
-
-# fast build rule for target.
-segment/fast:
-	$(MAKE) -f src/CMakeFiles/segment.dir/build.make src/CMakeFiles/segment.dir/build
-.PHONY : segment/fast
-
-#=============================================================================
-# Target rules for targets named traversal
-
-# Build rule for target.
-traversal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 traversal
-.PHONY : traversal
-
-# fast build rule for target.
-traversal/fast:
-	$(MAKE) -f src/CMakeFiles/traversal.dir/build.make src/CMakeFiles/traversal.dir/build
-.PHONY : traversal/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -586,8 +560,6 @@ help:
 	@echo "... ExperimentalUpdate"
 	@echo "... ContinuousConfigure"
 	@echo "... program"
-	@echo "... segment"
-	@echo "... traversal"
 .PHONY : help
 
 

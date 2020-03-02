@@ -6,20 +6,25 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/src/main.cpp" "/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/program.dir/main.cpp.o"
   )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "SEQAN3_HAS_BZIP2=1"
+  "SEQAN3_HAS_ZLIB=1"
+  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../include"
   "../deps/seqan3/include"
   "../deps/seqan3/submodules/sdsl-lite/include"
   "../deps/seqan3/submodules/range-v3/include"
   "../deps/seqan3/submodules/cereal/include"
+  "/usr/local/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/traversal.dir/DependInfo.cmake"
-  "/home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build/src/CMakeFiles/segment.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

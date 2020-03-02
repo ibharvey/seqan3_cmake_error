@@ -75,21 +75,43 @@ src/CMakeFiles/program.dir/main.cpp.o
  ../deps/seqan3/include/seqan3/alphabet/adaptation/char.hpp
  ../deps/seqan3/include/seqan3/alphabet/adaptation/uint.hpp
  ../deps/seqan3/include/seqan3/alphabet/alphabet_base.hpp
+ ../deps/seqan3/include/seqan3/alphabet/aminoacid/aa27.hpp
+ ../deps/seqan3/include/seqan3/alphabet/aminoacid/aminoacid_base.hpp
+ ../deps/seqan3/include/seqan3/alphabet/aminoacid/concept.hpp
+ ../deps/seqan3/include/seqan3/alphabet/cigar/cigar.hpp
+ ../deps/seqan3/include/seqan3/alphabet/cigar/cigar_op.hpp
+ ../deps/seqan3/include/seqan3/alphabet/composite/alphabet_tuple_base.hpp
  ../deps/seqan3/include/seqan3/alphabet/composite/alphabet_variant.hpp
  ../deps/seqan3/include/seqan3/alphabet/composite/detail.hpp
  ../deps/seqan3/include/seqan3/alphabet/concept.hpp
+ ../deps/seqan3/include/seqan3/alphabet/detail/alphabet_proxy.hpp
  ../deps/seqan3/include/seqan3/alphabet/detail/convert.hpp
  ../deps/seqan3/include/seqan3/alphabet/exception.hpp
  ../deps/seqan3/include/seqan3/alphabet/gap/all.hpp
  ../deps/seqan3/include/seqan3/alphabet/gap/gap.hpp
  ../deps/seqan3/include/seqan3/alphabet/gap/gapped.hpp
+ ../deps/seqan3/include/seqan3/alphabet/hash.hpp
  ../deps/seqan3/include/seqan3/alphabet/mask/mask.hpp
+ ../deps/seqan3/include/seqan3/alphabet/nucleotide/all.hpp
  ../deps/seqan3/include/seqan3/alphabet/nucleotide/concept.hpp
  ../deps/seqan3/include/seqan3/alphabet/nucleotide/dna15.hpp
+ ../deps/seqan3/include/seqan3/alphabet/nucleotide/dna3bs.hpp
  ../deps/seqan3/include/seqan3/alphabet/nucleotide/dna4.hpp
  ../deps/seqan3/include/seqan3/alphabet/nucleotide/dna5.hpp
  ../deps/seqan3/include/seqan3/alphabet/nucleotide/nucleotide_base.hpp
+ ../deps/seqan3/include/seqan3/alphabet/nucleotide/rna15.hpp
+ ../deps/seqan3/include/seqan3/alphabet/nucleotide/rna4.hpp
+ ../deps/seqan3/include/seqan3/alphabet/nucleotide/rna5.hpp
+ ../deps/seqan3/include/seqan3/alphabet/quality/aliases.hpp
+ ../deps/seqan3/include/seqan3/alphabet/quality/concept.hpp
+ ../deps/seqan3/include/seqan3/alphabet/quality/phred42.hpp
+ ../deps/seqan3/include/seqan3/alphabet/quality/qualified.hpp
+ ../deps/seqan3/include/seqan3/alphabet/quality/quality_base.hpp
  ../deps/seqan3/include/seqan3/contrib/parallel/buffer_queue.hpp
+ ../deps/seqan3/include/seqan3/contrib/stream/bgzf_istream.hpp
+ ../deps/seqan3/include/seqan3/contrib/stream/bgzf_stream_util.hpp
+ ../deps/seqan3/include/seqan3/contrib/stream/bz2_istream.hpp
+ ../deps/seqan3/include/seqan3/contrib/stream/gz_istream.hpp
  ../deps/seqan3/include/seqan3/core/add_enum_bitwise_operators.hpp
  ../deps/seqan3/include/seqan3/core/algorithm/all.hpp
  ../deps/seqan3/include/seqan3/core/algorithm/bound.hpp
@@ -100,6 +122,8 @@ src/CMakeFiles/program.dir/main.cpp.o
  ../deps/seqan3/include/seqan3/core/algorithm/configuration_utility.hpp
  ../deps/seqan3/include/seqan3/core/algorithm/pipeable_config_element.hpp
  ../deps/seqan3/include/seqan3/core/bit_manipulation.hpp
+ ../deps/seqan3/include/seqan3/core/char_operations/predicate.hpp
+ ../deps/seqan3/include/seqan3/core/char_operations/predicate_detail.hpp
  ../deps/seqan3/include/seqan3/core/char_operations/pretty_print.hpp
  ../deps/seqan3/include/seqan3/core/char_operations/transform.hpp
  ../deps/seqan3/include/seqan3/core/concept/cereal.hpp
@@ -118,6 +142,7 @@ src/CMakeFiles/program.dir/main.cpp.o
  ../deps/seqan3/include/seqan3/core/detail/int_types.hpp
  ../deps/seqan3/include/seqan3/core/detail/pack_algorithm.hpp
  ../deps/seqan3/include/seqan3/core/detail/strong_type.hpp
+ ../deps/seqan3/include/seqan3/core/detail/to_string.hpp
  ../deps/seqan3/include/seqan3/core/detail/type_inspection.hpp
  ../deps/seqan3/include/seqan3/core/parallel/detail/latch.hpp
  ../deps/seqan3/include/seqan3/core/parallel/detail/reader_writer_manager.hpp
@@ -152,16 +177,50 @@ src/CMakeFiles/program.dir/main.cpp.o
  ../deps/seqan3/include/seqan3/core/type_traits/range.hpp
  ../deps/seqan3/include/seqan3/core/type_traits/template_inspection.hpp
  ../deps/seqan3/include/seqan3/core/type_traits/transformation_trait_or.hpp
+ ../deps/seqan3/include/seqan3/io/alignment_file/detail.hpp
+ ../deps/seqan3/include/seqan3/io/alignment_file/format_sam.hpp
+ ../deps/seqan3/include/seqan3/io/alignment_file/format_sam_base.hpp
+ ../deps/seqan3/include/seqan3/io/alignment_file/header.hpp
+ ../deps/seqan3/include/seqan3/io/alignment_file/input_format_concept.hpp
+ ../deps/seqan3/include/seqan3/io/alignment_file/input_options.hpp
+ ../deps/seqan3/include/seqan3/io/alignment_file/misc.hpp
+ ../deps/seqan3/include/seqan3/io/alignment_file/output_format_concept.hpp
+ ../deps/seqan3/include/seqan3/io/alignment_file/output_options.hpp
+ ../deps/seqan3/include/seqan3/io/alignment_file/sam_tag_dictionary.hpp
+ ../deps/seqan3/include/seqan3/io/detail/ignore_output_iterator.hpp
+ ../deps/seqan3/include/seqan3/io/detail/in_file_iterator.hpp
+ ../deps/seqan3/include/seqan3/io/detail/magic_header.hpp
+ ../deps/seqan3/include/seqan3/io/detail/misc.hpp
+ ../deps/seqan3/include/seqan3/io/detail/misc_input.hpp
+ ../deps/seqan3/include/seqan3/io/detail/record.hpp
  ../deps/seqan3/include/seqan3/io/exception.hpp
+ ../deps/seqan3/include/seqan3/io/record.hpp
+ ../deps/seqan3/include/seqan3/io/sequence_file/format_embl.hpp
+ ../deps/seqan3/include/seqan3/io/sequence_file/format_fasta.hpp
+ ../deps/seqan3/include/seqan3/io/sequence_file/format_fastq.hpp
+ ../deps/seqan3/include/seqan3/io/sequence_file/format_genbank.hpp
+ ../deps/seqan3/include/seqan3/io/sequence_file/input.hpp
+ ../deps/seqan3/include/seqan3/io/sequence_file/input_format_concept.hpp
+ ../deps/seqan3/include/seqan3/io/sequence_file/input_options.hpp
+ ../deps/seqan3/include/seqan3/io/sequence_file/output_format_concept.hpp
+ ../deps/seqan3/include/seqan3/io/sequence_file/output_options.hpp
  ../deps/seqan3/include/seqan3/io/stream/concept.hpp
+ ../deps/seqan3/include/seqan3/io/stream/iterator.hpp
  ../deps/seqan3/include/seqan3/range/concept.hpp
  ../deps/seqan3/include/seqan3/range/container/aligned_allocator.hpp
+ ../deps/seqan3/include/seqan3/range/container/concatenated_sequences.hpp
  ../deps/seqan3/include/seqan3/range/container/concept.hpp
+ ../deps/seqan3/include/seqan3/range/container/small_string.hpp
+ ../deps/seqan3/include/seqan3/range/container/small_vector.hpp
  ../deps/seqan3/include/seqan3/range/decorator/gap_decorator.hpp
  ../deps/seqan3/include/seqan3/range/detail/enable_view.hpp
  ../deps/seqan3/include/seqan3/range/detail/inherited_iterator_base.hpp
+ ../deps/seqan3/include/seqan3/range/detail/misc.hpp
  ../deps/seqan3/include/seqan3/range/detail/random_access_iterator.hpp
+ ../deps/seqan3/include/seqan3/range/hash.hpp
  ../deps/seqan3/include/seqan3/range/shortcuts.hpp
+ ../deps/seqan3/include/seqan3/range/views/as_const.hpp
+ ../deps/seqan3/include/seqan3/range/views/char_to.hpp
  ../deps/seqan3/include/seqan3/range/views/chunk.hpp
  ../deps/seqan3/include/seqan3/range/views/complement.hpp
  ../deps/seqan3/include/seqan3/range/views/convert.hpp
@@ -169,15 +228,26 @@ src/CMakeFiles/program.dir/main.cpp.o
  ../deps/seqan3/include/seqan3/range/views/detail.hpp
  ../deps/seqan3/include/seqan3/range/views/drop.hpp
  ../deps/seqan3/include/seqan3/range/views/get.hpp
+ ../deps/seqan3/include/seqan3/range/views/interleave.hpp
+ ../deps/seqan3/include/seqan3/range/views/istreambuf.hpp
+ ../deps/seqan3/include/seqan3/range/views/join.hpp
  ../deps/seqan3/include/seqan3/range/views/persist.hpp
+ ../deps/seqan3/include/seqan3/range/views/repeat.hpp
+ ../deps/seqan3/include/seqan3/range/views/repeat_n.hpp
+ ../deps/seqan3/include/seqan3/range/views/single_pass_input.hpp
  ../deps/seqan3/include/seqan3/range/views/slice.hpp
  ../deps/seqan3/include/seqan3/range/views/take.hpp
+ ../deps/seqan3/include/seqan3/range/views/take_exactly.hpp
+ ../deps/seqan3/include/seqan3/range/views/take_line.hpp
+ ../deps/seqan3/include/seqan3/range/views/take_until.hpp
  ../deps/seqan3/include/seqan3/range/views/to.hpp
  ../deps/seqan3/include/seqan3/range/views/to_char.hpp
  ../deps/seqan3/include/seqan3/range/views/type_reduce.hpp
  ../deps/seqan3/include/seqan3/range/views/zip.hpp
  ../deps/seqan3/include/seqan3/std/algorithm
+ ../deps/seqan3/include/seqan3/std/charconv
  ../deps/seqan3/include/seqan3/std/concepts
+ ../deps/seqan3/include/seqan3/std/filesystem
  ../deps/seqan3/include/seqan3/std/iterator
  ../deps/seqan3/include/seqan3/std/new
  ../deps/seqan3/include/seqan3/std/ranges
@@ -195,6 +265,7 @@ src/CMakeFiles/program.dir/main.cpp.o
  ../deps/seqan3/submodules/cereal/include/cereal/types/array.hpp
  ../deps/seqan3/submodules/cereal/include/cereal/types/base_class.hpp
  ../deps/seqan3/submodules/cereal/include/cereal/types/common.hpp
+ ../deps/seqan3/submodules/cereal/include/cereal/types/vector.hpp
  ../deps/seqan3/submodules/range-v3/include/concepts/concepts.hpp
  ../deps/seqan3/submodules/range-v3/include/concepts/swap.hpp
  ../deps/seqan3/submodules/range-v3/include/concepts/type_traits.hpp
@@ -262,6 +333,7 @@ src/CMakeFiles/program.dir/main.cpp.o
  ../deps/seqan3/submodules/range-v3/include/range/v3/range/traits.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/range_for.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/range_fwd.hpp
+ ../deps/seqan3/submodules/range-v3/include/range/v3/to_container.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/utility/addressof.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/utility/box.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/utility/common_tuple.hpp
@@ -292,12 +364,17 @@ src/CMakeFiles/program.dir/main.cpp.o
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/empty.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/facade.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/filter.hpp
+ ../deps/seqan3/submodules/range-v3/include/range/v3/view/for_each.hpp
+ ../deps/seqan3/submodules/range-v3/include/range/v3/view/generate.hpp
+ ../deps/seqan3/submodules/range-v3/include/range/v3/view/generate_n.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/interface.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/iota.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/istream.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/join.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/ref.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/remove_if.hpp
+ ../deps/seqan3/submodules/range-v3/include/range/v3/view/repeat.hpp
+ ../deps/seqan3/submodules/range-v3/include/range/v3/view/repeat_n.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/reverse.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/single.hpp
  ../deps/seqan3/submodules/range-v3/include/range/v3/view/split.hpp
@@ -312,6 +389,6 @@ src/CMakeFiles/program.dir/main.cpp.o
  ../deps/seqan3/submodules/range-v3/include/std/detail/associated_types.hpp
  ../deps/seqan3/submodules/sdsl-lite/include/sdsl/bits.hpp
  ../deps/seqan3/submodules/sdsl-lite/include/sdsl/version.hpp
- ../include/segment.hpp
- ../include/traversal.hpp
  /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/src/main.cpp
+ /usr/local/include/zconf.h
+ /usr/local/include/zlib.h

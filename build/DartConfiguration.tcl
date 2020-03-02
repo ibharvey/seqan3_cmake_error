@@ -14,7 +14,7 @@ CostDataFile:
 Site: ian-Lenovo-IdeaPad-Y510P
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Linux-g++-7
+BuildName: Linux-c++
 
 # Subprojects
 LabelsForSubprojects: 
@@ -72,8 +72,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/g++-7
-CompilerVersion: 
+Compiler: /usr/bin/c++
+CompilerVersion: 7.4.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

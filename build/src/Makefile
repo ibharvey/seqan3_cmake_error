@@ -158,36 +158,6 @@ program/fast:
 	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f src/CMakeFiles/program.dir/build.make src/CMakeFiles/program.dir/build
 .PHONY : program/fast
 
-# Convenience name for target.
-src/CMakeFiles/segment.dir/rule:
-	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/segment.dir/rule
-.PHONY : src/CMakeFiles/segment.dir/rule
-
-# Convenience name for target.
-segment: src/CMakeFiles/segment.dir/rule
-
-.PHONY : segment
-
-# fast build rule for target.
-segment/fast:
-	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f src/CMakeFiles/segment.dir/build.make src/CMakeFiles/segment.dir/build
-.PHONY : segment/fast
-
-# Convenience name for target.
-src/CMakeFiles/traversal.dir/rule:
-	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/traversal.dir/rule
-.PHONY : src/CMakeFiles/traversal.dir/rule
-
-# Convenience name for target.
-traversal: src/CMakeFiles/traversal.dir/rule
-
-.PHONY : traversal
-
-# fast build rule for target.
-traversal/fast:
-	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f src/CMakeFiles/traversal.dir/build.make src/CMakeFiles/traversal.dir/build
-.PHONY : traversal/fast
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -215,60 +185,6 @@ main.cpp.s:
 	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f src/CMakeFiles/program.dir/build.make src/CMakeFiles/program.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-segment.o: segment.cpp.o
-
-.PHONY : segment.o
-
-# target to build an object file
-segment.cpp.o:
-	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f src/CMakeFiles/segment.dir/build.make src/CMakeFiles/segment.dir/segment.cpp.o
-.PHONY : segment.cpp.o
-
-segment.i: segment.cpp.i
-
-.PHONY : segment.i
-
-# target to preprocess a source file
-segment.cpp.i:
-	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f src/CMakeFiles/segment.dir/build.make src/CMakeFiles/segment.dir/segment.cpp.i
-.PHONY : segment.cpp.i
-
-segment.s: segment.cpp.s
-
-.PHONY : segment.s
-
-# target to generate assembly for a file
-segment.cpp.s:
-	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f src/CMakeFiles/segment.dir/build.make src/CMakeFiles/segment.dir/segment.cpp.s
-.PHONY : segment.cpp.s
-
-traversal.o: traversal.cpp.o
-
-.PHONY : traversal.o
-
-# target to build an object file
-traversal.cpp.o:
-	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f src/CMakeFiles/traversal.dir/build.make src/CMakeFiles/traversal.dir/traversal.cpp.o
-.PHONY : traversal.cpp.o
-
-traversal.i: traversal.cpp.i
-
-.PHONY : traversal.i
-
-# target to preprocess a source file
-traversal.cpp.i:
-	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f src/CMakeFiles/traversal.dir/build.make src/CMakeFiles/traversal.dir/traversal.cpp.i
-.PHONY : traversal.cpp.i
-
-traversal.s: traversal.cpp.s
-
-.PHONY : traversal.s
-
-# target to generate assembly for a file
-traversal.cpp.s:
-	cd /home/ian/Documents/Fremont/Bioinformatics/Scripts/CPP/seqan3_cmake_error/build && $(MAKE) -f src/CMakeFiles/traversal.dir/build.make src/CMakeFiles/traversal.dir/traversal.cpp.s
-.PHONY : traversal.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,21 +193,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... package_source"
 	@echo "... program"
-	@echo "... segment"
-	@echo "... traversal"
+	@echo "... package_source"
 	@echo "... test"
 	@echo "... package"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... segment.o"
-	@echo "... segment.i"
-	@echo "... segment.s"
-	@echo "... traversal.o"
-	@echo "... traversal.i"
-	@echo "... traversal.s"
 .PHONY : help
 
 
